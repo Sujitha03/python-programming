@@ -7,6 +7,6 @@ if(n<=100000):
   remainder=remainder+num*num*num
   n=n//10
  if(m==remainder):
-  print("Yes")
+  print("yes")
  else:
-  print("No")
+  print("no")
