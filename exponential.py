@@ -1,4 +1,3 @@
-num=int(input())
-exp_val=int(input())
+num,exp_value=list(map(int,input().split()))
 m=num**exp_val
 print(m)
