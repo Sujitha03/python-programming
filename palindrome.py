@@ -1,0 +1,9 @@
+n=int(input())
+b=str(n)[::-1]
+if(n<=1000):
+ if(b==str(n)):
+  print("Yes")
+ else:
+  print("No")
+else:
+ print("Invalid")
