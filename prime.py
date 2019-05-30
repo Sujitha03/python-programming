@@ -3,12 +3,12 @@ if(n<=1000):
  if(n>1):
   for i in range(2,n):
    if(n%i==0):
-    print("No")
+    print("no")
     break
   else:
-   print("Yes")
+   print("yes")
  else:
-  print("No")
+  print("no")
 else:
  print("Out of range")
   
