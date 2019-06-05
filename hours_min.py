@@ -1,4 +1,4 @@
 n=int(input())
-h=n//60
-m=n%60
-print(h,m)
+s=n//60
+r=n%60
+print(s,r)
