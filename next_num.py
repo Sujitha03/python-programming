@@ -1,2 +1,3 @@
 s=int(input())
-print(s+1)
+m=s+1
+print(m)
