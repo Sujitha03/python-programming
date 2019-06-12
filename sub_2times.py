@@ -1,0 +1,11 @@
+n,m=list(map(int,input().split()))
+l,r=list(map(int,input().split()))
+s=(n*60)+m
+t=(l*60)+r
+if(s>t):
+    h=(s-t)//60
+    m=(s-t)%60
+else:
+    h=(t-s)//60
+    m=(t-s)%60
+print(h,m)
