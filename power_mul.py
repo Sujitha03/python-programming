@@ -1,2 +1,3 @@
 r,s=map(int,input().split())
-print(r**s)
+z=r**s
+print(z)
