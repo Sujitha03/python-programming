@@ -1,2 +1,3 @@
 s=input()
-print(s)
+if(s!=':'):
+   print(s)
