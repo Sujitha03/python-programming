@@ -5,5 +5,7 @@ for i in range(1,n):
        count=count+1
 if(count>=1):
     print('yes')
+elif(n==1):
+    print('yes')
 else:
     print('no')
