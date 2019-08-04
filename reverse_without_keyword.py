@@ -1,0 +1,9 @@
+n=int(input())
+t=n
+d=0
+reverse=0
+while(t!=0):
+    d=t%10
+    reverse=(reverse*10)+d
+    t=t//10
+print(reverse)
